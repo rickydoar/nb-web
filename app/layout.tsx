@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   title: 'Nina Belloni | Coldwell Banker Real Estate',
   description: 'Professional real estate services in Marin County, California',
   metadataBase: new URL('https://ninabelloni.com'),
+  icons: {
+    icon: '/images/transparent-logo.png',
+    shortcut: '/images/transparent-logo.png',
+    apple: '/images/transparent-logo.png',
+  },
 };
 
 export default function RootLayout({
