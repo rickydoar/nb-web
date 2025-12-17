@@ -3,9 +3,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { agentInfo } from '@/lib/data/agent';
 
 export default function Header() {
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [portfolioOpen, setPortfolioOpen] = useState(false);
@@ -92,9 +95,11 @@ export default function Header() {
                 <Link
                   href={link.href}
                   className={`font-sans text-sm font-medium transition-colors ${
-                    isScrolled
-                      ? 'text-gray-900 hover:text-gray-700'
-                      : 'text-white hover:text-gray-200'
+                    isHomePage
+                      ? isScrolled
+                        ? 'text-gray-900 hover:text-gray-700'
+                        : 'text-white hover:text-gray-200'
+                      : 'text-[rgba(18,18,18,1)] hover:text-gray-700'
                   }`}
                 >
                   {link.label}
@@ -126,7 +131,11 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             className={`lg:hidden p-2 ${
-              isScrolled ? 'text-gray-900' : 'text-white'
+              isHomePage
+                ? isScrolled
+                  ? 'text-gray-900'
+                  : 'text-white'
+                : 'text-[rgba(18,18,18,1)]'
             }`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
