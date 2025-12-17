@@ -10,12 +10,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function CommunityPage({
+export default async function CommunityPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const community = getCommunityBySlug(params.slug);
+  const { slug } = await params;
+  const community = getCommunityBySlug(slug);
 
   if (!community) {
     notFound();
@@ -52,10 +53,10 @@ export default function CommunityPage({
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 leading-relaxed">
-              {community.name} is one of Marin County's most desirable
+              {community.name} is one of Marin County&apos;s most desirable
               communities, offering residents a unique blend of natural beauty,
               excellent amenities, and a strong sense of community. Whether
-              you're looking for a family home, a luxury estate, or an
+              you&apos;re looking for a family home, a luxury estate, or an
               investment property, {community.name} has something to offer every
               buyer.
             </p>
@@ -82,7 +83,7 @@ export default function CommunityPage({
             Interested in {community.name}?
           </h2>
           <p className="text-gray-600 mb-6">
-            Let's discuss your real estate goals in this beautiful community.
+            Let&apos;s discuss your real estate goals in this beautiful community.
           </p>
           <Link
             href="/contact"

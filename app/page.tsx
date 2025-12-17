@@ -76,8 +76,8 @@ export default function Home() {
                 dedication, and personalized service to every transaction.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                Whether you're buying your first home, selling a property, or
-                investing in real estate, Nina's local knowledge and
+                Whether you&apos;re buying your first home, selling a property, or
+                investing in real estate, Nina&apos;s local knowledge and
                 professional approach ensure exceptional results.
               </p>
               <Link

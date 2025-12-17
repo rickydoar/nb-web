@@ -37,8 +37,8 @@ export default function AboutPage() {
               service to every transaction.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Whether you're buying your first home, selling a property, or
-              investing in real estate, Nina's local knowledge and professional
+              Whether you&apos;re buying your first home, selling a property, or
+              investing in real estate, Nina&apos;s local knowledge and professional
               approach ensure exceptional results. Her commitment to excellence
               and client satisfaction has earned her a reputation as a trusted
               advisor in the Marin County real estate community.
@@ -54,7 +54,7 @@ export default function AboutPage() {
                 <span className="text-gray-900 font-medium mr-3">•</span>
                 <span className="text-gray-600">
                   <strong className="text-gray-900">Local Expertise:</strong> Deep
-                  knowledge of Marin County's diverse communities and neighborhoods
+                  knowledge of Marin County&apos;s diverse communities and neighborhoods
                 </span>
               </li>
               <li className="flex items-start">
@@ -100,7 +100,7 @@ export default function AboutPage() {
           {/* CTA */}
           <div className="mt-12 p-8 bg-gray-50 rounded-lg text-center">
             <h2 className="font-serif text-3xl font-semibold text-gray-900 mb-4">
-              Let's Work Together
+              Let&apos;s Work Together
             </h2>
             <p className="text-gray-600 mb-6">
               Ready to start your real estate journey? Get in touch today.

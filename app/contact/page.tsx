@@ -44,7 +44,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-gray-600 text-lg">
-            Let's discuss your real estate needs
+            Let&apos;s discuss your real estate needs
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default function ContactPage() {
                   Thank You!
                 </h2>
                 <p className="text-gray-600 mb-4">
-                  Your message has been sent. I'll get back to you shortly.
+                  Your message has been sent. I&apos;ll get back to you shortly.
                 </p>
                 <button
                   onClick={() => {
@@ -179,7 +179,7 @@ export default function ContactPage() {
                     htmlFor="interest"
                     className="block text-sm font-medium text-gray-700 mb-2"
                   >
-                    I'm interested in
+                    I&apos;m interested in
                   </label>
                   <select
                     id="interest"
@@ -232,7 +232,7 @@ export default function ContactPage() {
                     </a>{' '}
                     and consent to receiving marketing communications, including
                     through automated calls, texts, and emails, some of which may
-                    use artificial or prerecorded voices. This consent isn't
+                    use artificial or prerecorded voices. This consent isn&apos;t
                     necessary for purchasing any products or services and you may
                     opt out at any time.
                   </label>
