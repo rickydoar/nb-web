@@ -53,12 +53,7 @@ export default async function CommunityPage({
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 leading-relaxed">
-              {community.name} is one of Marin County&apos;s most desirable
-              communities, offering residents a unique blend of natural beauty,
-              excellent amenities, and a strong sense of community. Whether
-              you&apos;re looking for a family home, a luxury estate, or an
-              investment property, {community.name} has something to offer every
-              buyer.
+              {community.about}
             </p>
           </div>
         </div>
