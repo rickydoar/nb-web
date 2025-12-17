@@ -11,6 +11,14 @@ export default function BuySellCards() {
             href="/portfolio/active"
             className="group relative overflow-hidden rounded-lg aspect-[4/3] bg-gray-100"
           >
+            <Image
+              src="/images/51 Walnut.jpg"
+              alt="Buy a home"
+              fill
+              className="object-cover"
+              quality={90}
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
             <div className="absolute inset-0 bg-gradient-to-br from-gray-900/60 to-gray-900/40 group-hover:from-gray-900/70 group-hover:to-gray-900/50 transition-all duration-300" />
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="font-serif text-4xl md:text-5xl font-semibold text-white transform group-hover:scale-105 transition-transform duration-300">
@@ -32,6 +40,14 @@ export default function BuySellCards() {
             href="/contact"
             className="group relative overflow-hidden rounded-lg aspect-[4/3] bg-gray-100"
           >
+            <Image
+              src="/images/25 Wiltshire.jpeg"
+              alt="Sell your home"
+              fill
+              className="object-cover"
+              quality={90}
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
             <div className="absolute inset-0 bg-gradient-to-br from-gray-900/60 to-gray-900/40 group-hover:from-gray-900/70 group-hover:to-gray-900/50 transition-all duration-300" />
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="font-serif text-4xl md:text-5xl font-semibold text-white transform group-hover:scale-105 transition-transform duration-300">
