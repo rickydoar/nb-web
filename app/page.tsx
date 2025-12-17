@@ -23,14 +23,6 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30" />
         </div>
 
-        {/* Left Margin Branding */}
-        <div className="absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-10 hidden md:block">
-          <div className="writing-vertical text-white text-xs lg:text-sm font-medium space-y-2">
-            <p>{agentInfo.name}</p>
-            <p className="text-xs">DRE #{agentInfo.dreNumber}</p>
-          </div>
-        </div>
-
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto animate-fade-in">
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold text-white mb-6">
