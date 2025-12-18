@@ -23,6 +23,16 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30" />
         </div>
 
+        {/* Name and License - Bottom Left */}
+        <div className="absolute bottom-6 left-4 sm:left-6 lg:left-8 z-10">
+          <h2 className="font-serif text-lg md:text-xl font-semibold text-white mb-1">
+            {agentInfo.name}
+          </h2>
+          <p className="text-sm md:text-base text-white/90">
+            DRE #{agentInfo.dreNumber}
+          </p>
+        </div>
+
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto animate-fade-in">
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold text-white mb-6">
@@ -63,14 +73,27 @@ export default function Home() {
                 About Nina Belloni
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                With deep roots in Marin County and a passion for helping
-                clients find their perfect home, Nina brings expertise,
-                dedication, and personalized service to every transaction.
+                Born and raised in Marin, Nina brings a deep-rooted understanding of the local community,
+                neighborhoods, and lifestyle that make this area so special. With a genuine passion for helping
+                people find not just a house, but a home, she guides her clients through every step of the real
+                estate journey with honesty, care, insight, and a tireless work ethic. Whether you are buying
+                your first home, selling a longtime residence, or searching for the perfect investment, she offers
+                a thoughtful, personalized approach to helping achieve your goals.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Nina has spent the past three years immersed in the real estate world, working closely with a
+                top-producing agent. This hands-on experience has given her a deep understanding of the
+                business and a true appreciation for the details that make each transaction run smoothly.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                With a degree in hospitality and event planning, Nina brings a unique perspective to her work.
+                Her background has honed her organizational skills, eye for detail, and ability to anticipate
+                client needs, all qualities that translate seamlessly into real estate. She takes pride in creating
+                smooth, stress-free experiences and building lasting relationships along the way.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                Whether you&apos;re buying your first home, selling a property, or
-                investing in real estate, Nina&apos;s local knowledge and
-                professional approach ensure exceptional results.
+                Away from real estate, Nina is happiest surrounded by friends and family, planning her next
+                trip, or out on the lake.
               </p>
               <Link
                 href="/about"

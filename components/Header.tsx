@@ -29,7 +29,7 @@ export default function Header() {
       label: 'Portfolio',
       dropdown: [
         { href: '/portfolio/active', label: 'Active Listings' },
-        { href: '/portfolio/past-transactions', label: 'Past Transactions (Both Buyer + Seller)' },
+        { href: '/portfolio/past-transactions', label: 'Past Transactions' },
       ],
     },
     {
@@ -61,20 +61,20 @@ export default function Header() {
           : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/images/transparent-logo.png"
-              alt="Nina Belloni Logo"
-              width={60}
-              height={60}
-              className="h-12 w-auto transition-opacity hover:opacity-80"
-              priority
-            />
-          </Link>
+      {/* Logo - Positioned absolutely to stay flush left */}
+      <Link href="/" className="absolute left-4 sm:left-6 lg:left-8 top-0 h-20 flex items-center z-10">
+        <Image
+          src="/images/transparent-logo.png"
+          alt="Nina Belloni Logo"
+          width={isHomePage ? 80 : 60}
+          height={isHomePage ? 80 : 60}
+          className={isHomePage ? "h-20 w-auto transition-opacity hover:opacity-80" : "h-12 w-auto transition-opacity hover:opacity-80"}
+          priority
+        />
+      </Link>
 
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-end h-20 w-full">
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (

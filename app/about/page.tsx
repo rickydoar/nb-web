@@ -26,61 +26,29 @@ export default function AboutPage() {
         {/* Bio Content */}
         <div className="prose prose-lg max-w-none">
           <div className="mb-8">
-            <h2 className="font-serif text-3xl font-semibold text-gray-900 mb-4">
-              Professional Background
-            </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Nina Belloni is a dedicated real estate professional serving Marin
-              County with Coldwell Banker. With a deep understanding of the
-              local market and a passion for helping clients achieve their real
-              estate goals, Nina brings expertise, integrity, and personalized
-              service to every transaction.
+              Born and raised in Marin, Nina brings a deep-rooted understanding of the local community,
+              neighborhoods, and lifestyle that make this area so special. With a genuine passion for helping
+              people find not just a house, but a home, she guides her clients through every step of the real
+              estate journey with honesty, care, insight, and a tireless work ethic. Whether you are buying
+              your first home, selling a longtime residence, or searching for the perfect investment, she offers
+              a thoughtful, personalized approach to helping achieve your goals.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Whether you&apos;re buying your first home, selling a property, or
-              investing in real estate, Nina&apos;s local knowledge and professional
-              approach ensure exceptional results. Her commitment to excellence
-              and client satisfaction has earned her a reputation as a trusted
-              advisor in the Marin County real estate community.
+              Nina has spent the past three years immersed in the real estate world, working closely with a
+              top-producing agent. This hands-on experience has given her a deep understanding of the
+              business and a true appreciation for the details that make each transaction run smoothly.
             </p>
-          </div>
-
-          <div className="mb-8">
-            <h2 className="font-serif text-3xl font-semibold text-gray-900 mb-4">
-              Why Work With Nina
-            </h2>
-            <ul className="list-none space-y-4">
-              <li className="flex items-start">
-                <span className="text-gray-900 font-medium mr-3">•</span>
-                <span className="text-gray-600">
-                  <strong className="text-gray-900">Local Expertise:</strong> Deep
-                  knowledge of Marin County&apos;s diverse communities and neighborhoods
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-gray-900 font-medium mr-3">•</span>
-                <span className="text-gray-600">
-                  <strong className="text-gray-900">Personalized Service:</strong>{' '}
-                  Tailored approach to meet your unique needs and goals
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-gray-900 font-medium mr-3">•</span>
-                <span className="text-gray-600">
-                  <strong className="text-gray-900">Professional Network:</strong>{' '}
-                  Strong relationships with lenders, inspectors, and other
-                  professionals
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-gray-900 font-medium mr-3">•</span>
-                <span className="text-gray-600">
-                  <strong className="text-gray-900">Proven Results:</strong>{' '}
-                  Track record of successful transactions for both buyers and
-                  sellers
-                </span>
-              </li>
-            </ul>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              With a degree in hospitality and event planning, Nina brings a unique perspective to her work.
+              Her background has honed her organizational skills, eye for detail, and ability to anticipate
+              client needs, all qualities that translate seamlessly into real estate. She takes pride in creating
+              smooth, stress-free experiences and building lasting relationships along the way.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Away from real estate, Nina is happiest surrounded by friends and family, planning her next
+              trip, or out on the lake.
+            </p>
           </div>
 
           <div className="mb-8">
