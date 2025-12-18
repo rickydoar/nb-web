@@ -23,9 +23,6 @@ export default function Footer() {
             <h3 className="text-sm font-medium text-gray-500 mb-4">
               {agentInfo.name.toUpperCase()} | {agentInfo.company.toUpperCase()}
             </h3>
-            <p className="text-sm text-gray-600 mb-4">
-              DRE License #: {agentInfo.dreNumber}
-            </p>
             <div className="space-y-4">
               <div>
                 <div className="flex items-center mb-1">

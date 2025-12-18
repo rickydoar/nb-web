@@ -15,7 +15,7 @@ export default function BuySellCards() {
               src="/images/51 Walnut.jpg"
               alt="Buy a home"
               fill
-              className="object-cover"
+              className="object-cover scale-110 group-hover:scale-125 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500 ease-out"
               quality={90}
               sizes="(max-width: 768px) 100vw, 50vw"
             />
@@ -44,7 +44,7 @@ export default function BuySellCards() {
               src="/images/25 Wiltshire.jpeg"
               alt="Sell your home"
               fill
-              className="object-cover"
+              className="object-cover scale-110 group-hover:scale-125 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500 ease-out"
               quality={90}
               sizes="(max-width: 768px) 100vw, 50vw"
             />
